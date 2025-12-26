@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "475520330114",
+    "project_id": "synq-46db1",
+    "storage_bucket": "synq-46db1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:475520330114:android:2b4797f0e3c4c62122479b",
+        "android_client_info": {
+          "package_name": "com.ak.synq"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "475520330114-snk8d4p4dvapoqj5nd1ot7hkrj8ckfc3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3S1Vtub3YjZO5kftaCL_4TmvVuqAHE5U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "475520330114-snk8d4p4dvapoqj5nd1ot7hkrj8ckfc3.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "475520330114-e3f3i0ktpvv3ke1robed4gbv1ldgtb77.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ak.synq"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
