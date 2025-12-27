@@ -14,6 +14,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "475520330114-s0m3vu5tma76vsultili9qc3p3gmakon.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ak.synq",
+            "certificate_hash": "b23a1260613edeb3293631c1d40ba537a777a34f"
+          }
+        },
+        {
           "client_id": "475520330114-snk8d4p4dvapoqj5nd1ot7hkrj8ckfc3.apps.googleusercontent.com",
           "client_type": 3
         }

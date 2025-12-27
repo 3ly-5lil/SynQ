@@ -34,8 +34,21 @@ class Validator {
     if (value == null || value.isEmpty) {
       return 'Name cannot be empty';
     }
-    if (value.length < 2) {
-      return 'Name must be at least 2 characters long';
+    if (value.length < 3) {
+      return 'Name must be at least 3 characters long';
+    }
+    return null;
+  }
+  
+  static String? validateUsername(String? value) {
+    if (value == null || value.isEmpty) {
+      return 'Username cannot be empty';
+    }
+    if (value.length < 5 || value.length > 20) {
+      return 'Username must be at least 5 and at most 20 characters long';
+    }
+    if (!RegExp(r'^[a-zA-Z]([._-]?[a-zA-Z0-9]){4,19}$').hasMatch(value)) {
+      return 'Username must start with a letter and can contain letters, numbers, and . _ - characters only';
     }
     return null;
   }
